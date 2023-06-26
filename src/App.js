@@ -30,7 +30,7 @@ function App() {
       <header className="App-header">
         {loading && <img src={logo} className="App-logo" alt="logo" />}
 
-        <p>List Of Star wars movies</p>
+        <p>List Of Star wars movies in cinemas</p>
 
         {!loading &&
           films &&

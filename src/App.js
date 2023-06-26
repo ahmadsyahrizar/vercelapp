@@ -31,7 +31,7 @@ function App() {
         {loading && <img src={logo} className="App-logo" alt="logo" />}
 
         <p>List Of Star wars movies in cinemas</p>
-
+        <p>total movies: {films?.length}</p>
         {!loading &&
           films &&
           films.map(({ id, title, director }) => (
